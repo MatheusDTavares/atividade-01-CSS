@@ -21,18 +21,32 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     flex-direction: column;
-    
 
 }
 
 .filho {
     width: 80px;
     height: 80px;
-    border-radius: 50px;
+    border-radius: 50%;
     text-align: center;
+    
+}
+.bola1{
+    align-self: flex-start;
+    
+}
+
+.bola2 {
+    align-self: center;
+    margin-top: 50px;
+    
+}
+
+.bola3 {
+    align-self: flex-end;
+    margin-top: 50px;
+    
 }
 
 .cor1 {
